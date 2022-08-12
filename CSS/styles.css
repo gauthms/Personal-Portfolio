@@ -1,3 +1,6 @@
+* {
+  font-family: 'Source Sans Pro', sans-serif;
+}
 body {
   background-color: antiquewhite;
   margin:0;
@@ -16,7 +19,7 @@ h1, h2, h3 {
 
 .topnav {
   top:0;
-
+  
   font-size: 21px;
 
   width:98%;  
@@ -86,4 +89,40 @@ a:hover {
 
 #upBtn:hover {
   background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .cellp {
+    margin:0%;
+    font-size:13px;
+    
+  }
+
+  header > nav > ul > li > img {
+    margin-left:-20%;
+  }
+
+  header > nav > ul > li {
+    margin-left:-5%;
+    font-size:11px;
+  }
+
+
+  .container {
+    font-size:12px;
+    margin-left:30%;
+  }
+
+  .skillp {
+    margin-left:-10%;
+  }
+  #upBtn {
+    bottom: 175px;
+    right: 20px;
+  }
+  .h2cl {
+    margin-left:10%;
+  }
+  
 }
