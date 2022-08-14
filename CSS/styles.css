@@ -34,7 +34,7 @@ h1, h2, h3 {
 
 
 .container {
-/*   margin:auto; */
+  margin:auto;
   width:20%;
   text-align:center;
   margin-top:10%;
